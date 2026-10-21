@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-plump
+Exec=harbour-plump
+Name=Plump
+Name[sv]=Plump
+
+[X-Sailjail]
+OrganizationName=rs.r8
+ApplicationName=harbour-plump
+Permissions=Internet

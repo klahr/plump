@@ -1,0 +1,5 @@
+* Wed Oct 21 2026 Joachim Klahr <klahr@r8.rs> 0.1.0-1
+- First release: plump for three to five players against the bots in
+  three levels or online, nineteen deals from ten cards down to one and
+  back, trumps turned up, play speed setting, and won and lost games and
+  bids made per level
