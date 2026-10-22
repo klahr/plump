@@ -42,7 +42,9 @@ Page {
     }
 
     // A player's name, or a line meant for you, in the player's colour.
-    function coloured(player, text) { return "<font color=\"" + Cards.playerColor(player) + "\">" + text + "</font>" }
+    // Grey and faint for a player who has lost the connection, until a bot plays for them.
+    function seatColor(player) { return online.seats.length && online.away(online.toTable(player)) ? Cards.awayColor(player) : Cards.playerColor(player) }
+    function coloured(player, text) { return "<font color=\"" + seatColor(player) + "\">" + text + "</font>" }
     function named(player) { return coloured(player, game.playerName(player)) }
 
     // Where each player sits: you at the bottom, the others round the table.
@@ -241,7 +243,7 @@ Page {
                         dealer: game.dealer === index
                         showBid: !page.scoring
                         active: (game.phase === Plump.Bid || game.phase === Plump.Play) && game.turn === index
-                        color: Cards.playerColor(index)
+                        color: page.seatColor(index)
                     }
                 }
             }
@@ -474,7 +476,7 @@ Page {
                             anchors.verticalCenter: parent.verticalCenter
                             width: parent.width * 0.4
                             text: game.playerName(index)
-                            color: Cards.playerColor(index)
+                            color: page.seatColor(index)
                             truncationMode: TruncationMode.Fade
                         }
                         Label {
