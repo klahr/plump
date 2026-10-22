@@ -215,10 +215,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Your name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Server</source>
         <translation type="unfinished"></translation>
     </message>
@@ -268,6 +264,38 @@
     </message>
     <message>
         <source>Join</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your nickname</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show me to other players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Players waiting at a table can see your nickname and invite you.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invitation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 invites you to %2.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Someone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 invites you to their table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No thanks</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -362,7 +390,6 @@
     </message>
     <message>
         <source>%1 (bot)</source>
-        <extracomment>A player who has lost the connection; the bot plays meanwhile if `bot`</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -383,6 +410,10 @@
     </message>
     <message>
         <source>The server does not answer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The player has gone</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -545,6 +576,26 @@
     </message>
     <message>
         <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite players</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No one else is in the lobby.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Player</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invited</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invite</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
